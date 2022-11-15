@@ -4,9 +4,10 @@ import 'Pages/mainpage.dart';
 
 void main(List<String> args) {
   runApp(
-   MaterialApp(
+    MaterialApp(
       debugShowCheckedModeBanner: false,
       home: mainpage(),
+      theme: ThemeData(primarySwatch: Colors.grey),
     ),
   );
 }
